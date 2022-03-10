@@ -1,0 +1,104 @@
+:root{
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+}
+
+.container-Inscription{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.un{
+  display: flex;
+  flex-direction: column;
+}
+.deux{
+  display: flex;
+  flex-direction: column;
+}
+.trois{
+  display: flex;
+  flex-direction: column;
+} 
+.quatre{
+  display: flex;
+  flex-direction: column;
+} 
+.cinq{
+  display: flex;
+  flex-direction: column;
+} 
+.entet{
+  margin-left: 75%;
+  
+}
+.creeCompte
+{
+  display: flex;
+ 
+}
+.entet img{
+  height: 9rem;
+  width: 9rem;
+  border-radius: 100%;
+  margin-top: 5rem;
+} 
+.mainn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formConnexion{
+  /* border: 2px solid red; */
+  height: 100%;
+  width: 70%;
+  padding-left: 5%;
+}
+.mainnn{
+  display: flex;
+  background-color: white;
+  width: 80%;
+  height: 33rem;
+  box-shadow: 0 0 0.2rem 0.2rem grey;
+}
+.button1{
+  margin-left: 15%;
+  margin-top: 10%;
+  
+}
+.button2{
+  margin-left: 5%;
+}
+button{
+  cursor: pointer;
+}
+.cinq input{
+  width: 26.5rem;
+}
+.quatre input{
+  width: 26.5rem;
+}
+.trois input{
+  width: 26.5rem;
+}
+.deux input{
+  width: 26.5rem;
+}
+.un input{
+  width: 26.5rem;
+}
+.right1{
+  width: 15%;
+  
+}
+.entet h6{
+  
+  margin-left: 3rem;
+}
+
+
+
+
+
+

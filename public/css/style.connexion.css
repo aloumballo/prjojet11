@@ -1,0 +1,145 @@
+:root{
+    --success-color: #2ecc71; 
+    --error-color: #e74c3c;
+}
+*{
+    box-sizing: border-box;
+}
+
+.connect{
+    margin-top: 14%;
+}
+
+body{
+    
+ overflow: hidden;
+ height: 100vh;
+  background-image: url(../img/imgquiz.jpg); 
+ 
+}
+
+.container{
+     
+    background-image: url(../img/imgquiz.jpg); 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    margin: 0 0 20px;
+    
+}
+
+.form{
+   
+     width: 39vw; 
+    height: 60vh;
+    /* position: relative; */
+    
+    background-color: white;
+    
+}
+
+.form-control{
+    
+    display: flex; 
+    margin-top: 4%;
+    background-color: white;
+    margin-left: 5%;
+    
+    
+}
+
+
+.form-control.success input{
+    border-color: var(--success-color);
+}
+
+.form-control.error input{
+    border-color: var(--error-color);
+}
+
+.form-control small{
+    color: var(--error-color);
+    /* position: absolute;
+    bottom: 0;
+    left: 0; */
+    visibility: hidden;
+}
+
+.form-control.error small{
+    visibility: visible;
+}
+
+
+input[type="password"]{
+    width: 30vw;
+    height: 8vh;
+    background-color: rgb(240,240,240); 
+  
+    font-size: 25px;
+    border: none;
+
+}
+
+
+input[type="text"]{
+    width: 30vw;
+    height: 8vh;
+    background-color: rgb(240,240,240);
+    font-size: 25px;
+    border: none;
+}
+input[type="submit"]{
+    margin-left: 2vw;
+    height: 6vh;
+    font-size: 20px;
+    border: none;
+}
+input[id="connexion"]{
+    width: 10vw;
+    color: white;
+    background-color: rgb(81,191,208);
+    }
+    input[id="inscription"]{
+        background-color: white;
+        color: gray;
+    }
+    input[id="inscription"]:hover{
+        background-color: rgb(81,191,208);
+        color: white;
+    }
+.header{
+    height: 10vh;
+    color: white;
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(5,36,38);
+    
+}
+.logo{
+    width: 10vw;
+    height: 10vh;
+    background-image: url(../img/logo-QuizzSA.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    /* margin-left: -70%; */
+}
+.ff{
+    margin-left: 30%;
+    margin-top: 1%;
+    font-size: 2.4rem;
+    
+}
+.header-form{
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    background-color: rgb(81,191,208);
+      padding: 3%;  
+}
+

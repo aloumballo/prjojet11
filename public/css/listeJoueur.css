@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* .listeJoueurs table{
+    border-spacing: 2rem;
+    height: 7rem;
+}
+#conteneur{
+    height: 80%;
+    background-color: white ;
+    box-shadow: 0 0 0.2rem 0.2rem grey;
+}
+table{
+    border: 2px solid black;
+    width: 90%;
+    height: 5%;
+    border-radius: 3%;
+}
+.listeJoueurs{
+    width: 100%;
+}
+ */
+ 
+    
+ 
+ table{
+    border: 2px solid skyblue; 
+    background-color: white;
+    width: 80%;
+    height: 33rem;
+    box-shadow: 0 0 0.2rem 0.2rem grey;
+    width: 100%;
+  }
+  .style{
+    background-color: white;
+    box-shadow: 0 0 0.2rem 0.2rem grey;
+
+  }
+ 
