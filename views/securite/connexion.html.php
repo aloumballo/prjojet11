@@ -35,20 +35,16 @@ $errors = $_SESSION[KEY_ERRORS];
         <div class="form-control">
             <input type="password" id="password" placeholder="Password" name="password">
             <?php if (isset($errors['password'])):?>
-        
-        
-            <img src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-password.png" ?>" alt="" width="5%" height="-1%">
-            
-
-            <small>Error message</small>
-            <p style="color:red"> <?=$errors['password']; ?> </p>
-        <?php endif?>
+                <img src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."ic-password.png" ?>" alt="" width="5%" height="-1%">
+                <small>Error message</small>
+                <p style="color:red"> <?=$errors['password']; ?> </p>
+           <?php endif?>
         </div>
         <div class="connect">
             <input type="submit" value="Connexion" id="connexion">
             <!-- <input type="submit" value="S'inscrire pour jouer" id="inscription"> -->
             <!-- //liens pour s'inscrire -->
-            <button> <a href="<?= WEB_ROOT."?controller=user&action=inscription.joueur"?>">S'inscrire pour jouer</a> </button>
+            <button> <a href="<?= WEB_ROOT."?controller=securite&action=inscription"?>">S'inscrire pour jouer</a> </button>
         </div>
     
         
@@ -57,6 +53,6 @@ $errors = $_SESSION[KEY_ERRORS];
 </div>
 
 <?php
-require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."footer.inc.html.php");
+// require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."footer.inc.html.php");
 ?>
             

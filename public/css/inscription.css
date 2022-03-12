@@ -3,6 +3,15 @@
   --error-color: #e74c3c;
 }
 
+#error{
+  border:2px solid red;
+
+}
+.success{
+  border:2px solid green;
+
+}
+
 .container-Inscription{
   display: flex;
   flex-direction: column;

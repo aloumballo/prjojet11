@@ -30,13 +30,18 @@ table{
     border: 2px solid skyblue; 
     background-color: white;
     width: 80%;
-    height: 33rem;
     box-shadow: 0 0 0.2rem 0.2rem grey;
-    width: 100%;
+    width: 90%;
+    overflow-y: scroll;
   }
   .style{
     background-color: white;
     box-shadow: 0 0 0.2rem 0.2rem grey;
-
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
  

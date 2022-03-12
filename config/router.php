@@ -11,7 +11,7 @@ if (isset($_REQUEST['controller'])) {
             require_once(PATH_SRC."controllers/users.controllers.php");
             break;
         default :
-            echo "ce controller n'existe pas";
+            echo "se controller n'existe pas";
             break;  
     }
 }

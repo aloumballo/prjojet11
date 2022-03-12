@@ -1,141 +1,159 @@
 {
-    "users":[
-
+    "users": [
         {
-        "Nom": "Mballo",
-        "Prenom": "alassne",
-        "password":"joueur",
-        "login" : "joueur@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 15
-
+            "Nom": "Mballo",
+            "Prenom": "alassne",
+            "password": "joueur",
+            "login": "joueur@gmail.com",
+            "role": "Role_JOUEUR",
+            "score": 15
         },
         {
             "Nom": "balde",
-        "Prenom": "junior",
-        "password":"balde",
-        "login" : "balde@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 13
-
+            "Prenom": "junior",
+            "password": "balde",
+            "login": "balde@gmail.com",
+            "role": "Role_ADMIN",
+            "score": 13
         },
         {
             "Nom": "seck",
-        "Prenom": "ousmane",
-        "password":"seck",
-        "login" : "seck@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 1
-
+            "Prenom": "ousmane",
+            "password": "seck",
+            "login": "seck@gmail.com",
+            "role": "Role_JOUEUR",
+            "score": 1
         },
         {
             "Nom": "fall",
-        "Prenom": "mbayang",
-        "password":"fall",
-        "login" : "fall@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 7
-
+            "Prenom": "mbayang",
+            "password": "fall",
+            "login": "fall@gmail.com",
+            "role": "Role_JOUEUR",
+            "score": 7
         },
         {
             "Nom": "diop",
-        "Prenom": "demba",
-        "password":"diop",
-        "login" : "diop@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 10
-
+            "Prenom": "demba",
+            "password": "diop",
+            "login": "diop@gmail.com",
+            "role": "Role_JOUEUR",
+            "score": 10
         },
         {
             "Nom": "mbaye",
-        "Prenom": "astou",
-        "password":"mbaye",
-        "login" : "mbaye@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 5
-
+            "Prenom": "astou",
+            "password": "mbaye",
+            "login": "mbaye@gmail.com",
+            "role": "Role_JOUEUR",
+            "score": 5
         },
         {
             "Nom": "wane",
-        "Prenom": "birane",
-        "password":"wane",
-        "login" : "wane@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 9
-
+            "Prenom": "birane",
+            "password": "wane",
+            "login": "wane@gmail.com",
+            "role": "Role_JOUEUR",
+            "score": 9
         },
         {
             "Nom": "faye",
-        "Prenom": "oumou",
-        "password":"faye",
-        "login" : "faye@gmail.com",
-        "role":"Role_JOUEUR",
-        "score": 12
-
+            "Prenom": "oumou",
+            "password": "faye",
+            "login": "faye@gmail.com",
+            "role": "Role_JOUEUR",
+            "score": 12
         },
-     
-
-
         {
             "Nom": "Faye",
             "Prenom": "Astou",
-            "password":"admin",
-            "login" : "admin@gmail.com",
-            "role":"Role_ADMIN",
-            "Score":0
-    
-    
-            }
-           
-            
-            
-        
-
-
+            "password": "admin",
+            "login": "admin@gmail.com",
+            "role": "Role_ADMIN",
+            "Score": 0
+        },
+        {
+            "nom": "diop",
+            "prenom": "selle",
+            "login": "admin@gmail.com",
+            "password": null,
+            "role": "Role_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "aissatou",
+            "prenom": "fall",
+            "login": "joueur@gmail.com",
+            "password": null,
+            "role": "Role_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "fall",
+            "prenom": "Alassane",
+            "login": "joueur@gmail.com",
+            "password": null,
+            "role": "Role_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "diagne",
+            "prenom": "mor",
+            "login": "mor@gmail.com",
+            "password1": null,
+            "role": "Role_JOUEUR",
+            "score": 0
+        },
+        {
+            "nom": "Mballo",
+            "prenom": "alassane",
+            "login": "morrr@gmail.com",
+            "password": "Passer2022",
+            "role": "Role_JOUEUR",
+            "score": 0
+        }
     ],
-    "questions":[
-          {
-              "Questions":"Les Langage Web",
-              "choix":[
-                  "HTML","R","java"
-              ],
-              "reponse":"html"
-
-          },
-          {
-
-            "Questions":"D'ou vient le corona?",
-            "choix":[
-                "Italie","Chine"
+    "questions": [
+        {
+            "Questions": "Les Langage Web",
+            "choix": [
+                "HTML",
+                "R",
+                "java"
             ],
-            "reponse":"chine"
-          },
-          {
-            "Questions":"Quel est la capital du senegal?",
-            "choix":[
-                "Dakar","Thies"
+            "reponse": "html"
+        },
+        {
+            "Questions": "D'ou vient le corona?",
+            "choix": [
+                "Italie",
+                "Chine"
             ],
-            "reponse":"Dakar"
-          },
-          {
-            "Questions":"Quels est la prmiere ecole de codage gratuite du senegal",
-            "choix":[
-                "Simplon","Orange Digital Center"
+            "reponse": "chine"
+        },
+        {
+            "Questions": "Quel est la capital du senegal?",
+            "choix": [
+                "Dakar",
+                "Thies"
             ],
-            "reponse":"Simplon"
-          },
-          {
-            "Questions":"Qui est le pluis vilain de orange digital center",
-            "choix":[
-                "Traore","Ndiaye"
+            "reponse": "Dakar"
+        },
+        {
+            "Questions": "Quels est la prmiere ecole de codage gratuite du senegal",
+            "choix": [
+                "Simplon",
+                "Orange Digital Center"
             ],
-            "reponse":"Traore"
-          }
-
-
+            "reponse": "Simplon"
+        },
+        {
+            "Questions": "Qui est le pluis vilain de orange digital center",
+            "choix": [
+                "Traore",
+                "Ndiaye"
+            ],
+            "reponse": "Traore"
+        }
     ]
-    
-        
-    }
-
-
+}

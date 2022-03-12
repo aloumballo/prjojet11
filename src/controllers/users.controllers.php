@@ -16,15 +16,20 @@ if ($_SERVER["REQUEST_METHOD"]=="GET") {
         }
  
 
-        if ($_REQUEST["action"]=="accueil") {   
+        if ($_REQUEST["action"]=="accueil") {
+             
             if(is_admin()){
+                
                 listeJoueur();   //par defaut affiche la page liste joueur
-            }elseif(is_joueur()){
-                afficheJeux();
+            }elseif(is_joueur()){ 
+                afficheJeux(); 
+            }else {
+                /* die('gffg'); */
             }
+
         } 
 /*             require_once(PATH_VIEWS."user".DIRECTORY_SEPARATOR."accueil.html.php");
- */       
+ */      
         if($_REQUEST["action"]=='liste.question'){
             listequestion();
         }
@@ -83,12 +88,14 @@ function  creeQuestion (){
     require_once(PATH_VIEWS.'user'.DIRECTORY_SEPARATOR."accueil.html.php");
 
 }
-//fonction pour affichier par defaut la page eux.html.php
+//fonction pour affichier par defaut la page jeux.html.php
 function afficheJeux(){ 
     ob_start();
     require_once(PATH_VIEWS.'user'.DIRECTORY_SEPARATOR."jeux.html.php");
     $affiche=ob_get_clean();
+ 
+ 
+ 
     require_once(PATH_VIEWS.'user'.DIRECTORY_SEPARATOR."accueil.html.php");
-
-
 }
+
