@@ -104,13 +104,16 @@ require_once(PATH_SRC."models".DIRECTORY_SEPARATOR."users.models.php");
         </div>
 
 
-
+   
            <div class="right1">
       
            <div class="entet">
+              <!-- creation du upload -->
          
-       
-           <img src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."téléchargement.jpg" ?>" alt=""class="img"> 
+         
+         <label for="icon">  <img src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."téléchargement.jpg" ?>" id="icone" alt=""class="img"> 
+         <input id="icon" type="file" hidden onchange="upload(this)"> 
+      </label>
    
            <h6>Avatar du joueur</h6>
            

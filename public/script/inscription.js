@@ -243,3 +243,10 @@ if(passwords!==''){
 
 }
 })
+/* fonction pour le upload telecharger img */
+upload(img)
+function upload(img){
+    console.log()
+    let icone=document.getElementById("icone")
+    icone.src=window.URL.createObjectURL(img.files[0])
+}

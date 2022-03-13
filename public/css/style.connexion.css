@@ -12,7 +12,7 @@
 
 body{
     
- height: 100vh;
+ height: 95vh;
   background-image: url(../img/imgquiz.jpg); 
  
 }
@@ -113,7 +113,7 @@ input[id="connexion"]{
         color: white;
     }
 .header{
-    height: 10vh;
+    height: 12%;
     color: white;
     display: flex;
     /* justify-content: space-between; */

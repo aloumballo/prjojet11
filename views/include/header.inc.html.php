@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="<?=WEB_PUBLIC.'css'.DIRECTORY_SEPARATOR.'inscription.css'?>"> 
     <link rel="stylesheet" href="<?=WEB_PUBLIC.'css'.DIRECTORY_SEPARATOR.'liste_Question.css'?>"> 
     <link rel="stylesheet" href="<?=WEB_PUBLIC.'css'.DIRECTORY_SEPARATOR.'listeJoueur.css'?>"> 
+    <link rel="stylesheet" href="<?=WEB_PUBLIC.'css'.DIRECTORY_SEPARATOR.'creation_Question.css'?>"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title> 
 </head>
