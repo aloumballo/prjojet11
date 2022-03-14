@@ -12,9 +12,10 @@
 
 body{
     
- height: 95vh;
+ height: 96vh;
   background-image: url(../img/imgquiz.jpg); 
- 
+  overflow-y: hidden;
+  
 }
 
 .container{
@@ -24,7 +25,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 100vh;
+    height: 100%;
 }
 
 h2{

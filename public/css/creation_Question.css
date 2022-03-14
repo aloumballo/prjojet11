@@ -1,18 +1,64 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 
 .conteneurs{
     background-color: white;
     width: 100%;
     height: 100%;
 }
-/* .inputs{
-    
-} */
+.inputs{
+    justify-content: space-between; 
+    width: 100%;
+    height: 100%;
+} 
 .quest{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    justify-content: left;
+}
+.divButtonSave{
+    display: flex;
+    margin-left: 75%;
+    margin-top: 35%;
+    
+}
+span{
+    color: #00ffff;
+}
+input.number{
+    width: 7%;
+    height: 15%;
+    
 }
 #divButtonSave{
-    display: flex;
+    background-color: #00ffff;
+}
+#question{
+    margin-top: 5%;
+    
+}
+#questions{
+    margin-top: 5%;
+}
+#question1{
+    margin-top: 5%;
+
+}
+.moy{
+    margin-left: 3%;
+    font-size: 2em;
+    margin-top: -2%;
+}
+.sup{
+    font-size: 1em;
+    margin-top: -0.2%;
+
+}
+.input{
+    margin-top: 2%;
+    border: 2px solid red;
 }

@@ -10,6 +10,14 @@ require_once(PATH_VIEWS."include".DIRECTORY_SEPARATOR."header.inc.html.php");
 <div id="conteneur"> 
   <div class="gauche">
     <div class="tof">
+      <!-- creation pour que mn prenom s'affiche au niveau de la tof -->
+      <div>
+        <?=
+        $_SESSION[KEY_USER_CONNECT]['Nom']." ". 
+        $_SESSION[KEY_USER_CONNECT]['Prenom'];
+        ?>
+
+      </div>
       <img src="<?=WEB_PUBLIC."img".DIRECTORY_SEPARATOR."téléchargement.jpg" ?>"class="imgaccueil" alt="" height="19%">
     </div>
     <div class="liste">

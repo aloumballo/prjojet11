@@ -2,28 +2,102 @@ const quest = document.getElementById("quest");
 const number = document.getElementById("number");
 const typeRep = document.getElementById("typeRep");
 const inputs = document.getElementById("inputs");
-const btnPlus  = document.getElementById(" btnPlus ");
-
-
+const btnPlus  = document.getElementById("btnPlus");
+const vide=document.getElementById('vide');
 // creation des evenements
+let i=1;
+function ajoutInput(){
 
-btnPlus.addEventListener("click", addQuestion)
+    var div=document.createElement('div');
+    var label=document.createElement('label');
+    label.innerHTML='reponse' +i
+    var input=document.createElement('input');
+    input.setAttribute('type','text');
+    var img=document.createElement('img');
+    img.src='img/ic-supprimer.png';
+    var input2=document.createElement('input');
+    input.setAttribute('class','input');
+    i++;
+    img.addEventListener('click',function(e){
+        div.remove();
+    })
+    switch (typeRep.value) {
+        case 'opt1':
+            input2.type='radio';
+            
+            break;
+            case 'opt2':
+                input2.type='checkbox';
+            
+                break;
+                case 'opt3':
+                    input2.type='hidden';
+            
+                break;
+           
+        default:
+            '0';
+            break;
+    }
+   
+    div.append(label,input,input2,img)
+    vide.appendChild(div);
+}
+
+btnPlus.onclick=ajoutInput;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* btnPlus.addEventListener("click", addQuestion)
 
 
 function addQuestion() {
     switch (typeRep.value) {
-        case "texte":
+        case "opt3":
             choixTexte();
 
             break;
-        case "choix multiple":
+        case "opt2":
             choixMultiple();
             break;
-        case "choix simple":
+        case "opt1":
+            ReponseSimple();
             alert("choix simple")
             break;
         default:
-            alert("veuillez choisir un type")
+             alert("veuillez choisir un type")
     }
 }
 
@@ -49,10 +123,10 @@ function choixTexte() {
     btnSup.addEventListener("click", function() {
             divSup = this.parentElement;
             inputs.removeChild(divSup)
-        })
+        }) */
         // btnPlus.style.visibility = "hidden"
-}
-
+/* }
+ */
 
 /* function choixMultiple() {
     var divContent = document.createElement("div")
@@ -87,3 +161,5 @@ function choixTexte() {
         divAllInput.removeChild(divSup)
     })
 } */
+
+

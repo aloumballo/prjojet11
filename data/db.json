@@ -65,9 +65,9 @@
             "score": 12
         },
         {
-            "Nom": "Faye",
-            "Prenom": "Astou",
-            "password": "admin",
+            "Nom": "mballo",
+            "Prenom": "Alassane",
+            "password": "adminn1",
             "login": "admin@gmail.com",
             "role": "Role_ADMIN",
             "Score": 0
@@ -112,7 +112,10 @@
             "role": "Role_JOUEUR",
             "score": 0
         }
-    ],
+    
+        ],
+
+
     "questions": [
         {
             "Questions": "Les Langage Web",
@@ -157,3 +160,4 @@
         }
     ]
 }
+
